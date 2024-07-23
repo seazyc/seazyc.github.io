@@ -140,6 +140,9 @@ function gotowhatsapp() {
   function tele() {
   window.open('https://t.me/saluran2024', '_blank');
   }
+function garapan() {
+  window.open('https://chat.whatsapp.com/KWzES32zUCn3Zy8JPCExIM', '_blank');
+}
   function reput() {
   window.open('https://www.facebook.com/100001374587807/posts/5027837120605391/', '_blank');
   }
