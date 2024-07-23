@@ -1,0 +1,94 @@
+:root {
+    --default: #FFFFFF;
+    --body-color: #000000;
+    --text-color: #a855f7;
+    --gradient-text-color:  linear-gradient(to right, #7F5CDF 0%, #6854D0 72%, #4C6AD0 100%);
+    --navbar-bg-color: #000000;
+    --navbar-text-color: hsl(0, 0%, 85%);
+    --navbar-text-color-focus: white;
+    --navbar-bg-contrast: hsla(0, 0%, 25%, 0.686);
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--body-color);
+    height: 100vh;
+    font-family: "Manrope", Sans-serif;
+    line-height: 1.6;
+  }
+  .container {
+    max-width: 1600px;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #navbar {
+    --navbar-height: 64px;
+    height: var(--navbar-height);
+    background-color: var(--navbar-bg-color);
+    left: 0;
+    right: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    z-index: 1000;
+  }
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+  }
+  .navbar-item {
+    margin: 0.4em;
+    width: 100%;
+  }
+  
+  .home-link,
+  .navbar-link {
+    color: var(--navbar-text-color);
+    text-decoration: none;
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+  }
+  
+  .home-link:is(:focus, :hover) {
+    color: var(--navbar-text-color-focus);
+  }
+  
+  .navbar-link {
+    justify-content: center;
+    width: 100%;
+    padding: 0.4em 0.8em;
+    border-radius: 1px;
+  }
+  
+  
+  .navbar-link:is(:focus, :hover) {
+    color: var(--text-color);
+    border-bottom: 0.8px solid var(--text-color);
+
+  }
+  .navbar-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: 160px; /* Adjust the height as needed */
+    background-image: url('../img/20240611_192726.png');
+    background-size: contain; /* Ensures the image covers the entire area */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width: 768px) {
+    .navbar-logo {
+      width: 110px;
+      height: 200px;
+  }
+ }
+
+  
+    

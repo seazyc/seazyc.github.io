@@ -1,0 +1,96 @@
+footer {
+    color: white;
+    padding: 100px 0 0 0;
+    text-align: left;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.footer-container {
+    border-top: 1px solid rgba(255, 255, 255, 0.224);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+  
+.footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 250px;
+}
+  
+.footer-section h2 {
+    margin-top: 0;
+}
+  
+.footer-section p {
+    line-height: 1.6;
+}
+  
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+.footer-section a:hover {
+    text-decoration: underline;
+}
+  
+.social-icons {
+    display: flex;
+    gap: 10px; /* Jarak antar ikon */
+}
+  
+.social-icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+  
+.social-icon:hover {
+    color: #4CAF50;
+}
+.footer-logo {
+    width: 100px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    background-image: url('../img/20240611_192726.png');
+    background-size: contain; /* Ensures the image covers the entire area */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+@media (max-width: 768px) {
+    .social-icon {
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .footer-section p {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .footer-logo {
+      width: 100px;
+      height: 50px;
+  }
+ }
+ @media (min-width: 724px) { 
+    .social-icon {
+        color: white;
+        font-size: 17px;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+    .footer-section p {
+        font-size: 12px;
+        line-height: 1.2;
+    }
+    .footer-logo {
+      width: 100px;
+      height: 50px;
+  }
+}
