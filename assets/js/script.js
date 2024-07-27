@@ -138,7 +138,7 @@ function gotowhatsapp() {
   window.open('https://wa.me/6282274241198', '_blank');
   }
   function tele() {
-  window.open('https://t.me/saluran2024', '_blank');
+  window.open('https://t.me/transactionONaldixf', '_blank');
   }
 function garapan() {
   window.open('https://chat.whatsapp.com/KWzES32zUCn3Zy8JPCExIM', '_blank');
