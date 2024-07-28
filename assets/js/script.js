@@ -134,10 +134,13 @@ function scrollToChart() {
       element.scrollIntoView({ behavior: 'smooth' });
   }
 }
-function gotowhatsapp() {
+function wa() {
   window.open('https://wa.me/6282274241198', '_blank');
   }
-  function tele() {
+function tele() {
+  window.open('https://t.me/aldixf', '_blank');
+}
+  function reputtele() {
   window.open('https://t.me/transactionONaldixf', '_blank');
   }
 function garapan() {
