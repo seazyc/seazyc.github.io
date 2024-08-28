@@ -135,7 +135,7 @@ function scrollToChart() {
   }
 }
 function wa() {
-  window.open('https://wa.me/6282274241198', '_blank');
+  window.open('https://wa.me/628887878328', '_blank');
   }
 function tele() {
   window.open('https://t.me/aldixf', '_blank');
